@@ -731,7 +731,7 @@ steps:
 {% ifversion actions-save-state-set-output-envs %}
 ## Setting an output parameter
 
-Sets a step's output parameter. Note that the step will need an `id` to be defined to later retrieve the output value.
+Sets a step's output parameter. Each output must be separated by a newline character. Note that the step will need an `id` to be defined to later retrieve the output value.
 
 {% bash %}
 
